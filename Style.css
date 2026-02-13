@@ -42,10 +42,12 @@
       height: 100vh;
       background: linear-gradient(to right, #0D3B66, #FAF0CA);
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
       color: white;
+      padding: 20px;
     }
 
     .hero-content h1 {
@@ -56,6 +58,12 @@
     .hero-content p {
        font-size: 1.5em;
        margin-bottom: 30px;
+    }
+
+    .hero img {
+      border-radius: 50%;
+      width: 150px;
+      margin-bottom: 20px;
     }
 
     .btn {
