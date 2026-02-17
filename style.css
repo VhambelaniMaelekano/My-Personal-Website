@@ -1,123 +1,113 @@
-    body {
-  font-family: 'Inter', Arial, sans-serif;
+body {
+  font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
   color: #333;
   line-height: 1.6;
+  background-color: #fff;
 }
 
-    nav { 
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: #000;
-      padding: 20px 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1000;
-    }
-    .logo {
-      color: #fff;
-      font-weight: bold;
-      font-size: 1.5rem;
-      margin-left: 5%;
-      text-decoration: none;
-    }
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    text-decoration: none;
+}
 
 .nav-links {
   margin-right: 5%;
 }
 
-
-    nav a { 
-      color: #fff;
-      margin: 0 30px;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 500;
+nav a {
+    color: #fff;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
     }
 
-    nav a:hover {
-      color: #F95738;
-    }
+nav a:hover {
+    color: #F95738;
+}
 
-body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding-top: 60px;
-    }
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 10%;
+    background-color: #fff;
+    color: #0D3B66;
+}
 
-    .hero {
-      height: 80vh;
-      display: flex;
-      justify-content: center;
-      justify-content: column;
-      align-items: center;
-      text-align: center;
-        padding: 0 10%;
-      background-color: #fff;
-      color: #0D3B66;
-    }
+.hero h1 {
+    font-size: clamp(3rem, 10vw, 6rem);
+    margin-bottom: 10px;
+}
 
-    .hero h1 {
-      font-size: clamp(3rem, 10vw, 6rem);
-      margin-bottom: 20px;
-    }
+.hero .hi {
+    font-family: "Playfair Display", serif;
+    color: #000;
+}
 
-    .hero .hi {
-       font-family: "Playfair Display", serif;
-       color: #000;
-    }
-
-    .hero .welcome {
-      font-family: 'Dancing Script', cursive;
-      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+.hero .welcome {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-    }
-    .hero p {
-      font-size: 1.1em;
-      max-width: 700px;
-      color: #222;
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
+}
+hero p {
+    font-size: 1.3em;
+    max-width: 600px;
+    color: #222;
+    font-weight: 600;
+    margin: 10px 0;
+}
 
-    .hero .tagline {
-      font-size: 1.2rem;
-      color: #666;
-      font-weight: 400;
-      line-height: 1.4;
-    }
+.hero .tagline {
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 400;
+    max-width: 500px;
+}
 
-    section { 
-      padding: 80px 10%;
-    }
+section { 
+    padding: 100px 10%;
+}
 
-    h2 {
-      font-size: 2rem;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 10px;
-    }
+h2 {
+    font-size: 2.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
     
-    html {
-      scroll-behavior: smooth;
-    }
+html {
+    scroll-behavior: smooth;
+}
 
-    .btn {
-      background-color: #F95738;
-      color: white;
-      padding: 12px 25px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
+.btn {
+    background-color: #F95738;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
-    .btn:hover {
-      background-color: #EE6C4D;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
+.btn:hover {
+    background-color: #EE6C4D;
+}
