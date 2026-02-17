@@ -11,7 +11,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #000;
+    background: #1E1E2F;
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
@@ -75,7 +75,7 @@ nav a:hover {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 }
-hero p {
+.hero p {
     font-size: 1.3em;
     max-width: 600px;
     color: #222;
