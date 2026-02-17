@@ -21,9 +21,15 @@ nav {
 .logo {
     color: #fff;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-left: 5%;
     text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Georgia', serif;
+}
+
+.logo:hover {
+  color: #F95738;
 }
 
 .nav-links {
